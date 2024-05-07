@@ -34,7 +34,8 @@ body {
 
 h1 {
     color: white;
-    font-size: 3rem;
+    margin-top: 1rem;
+    font-size: 2rem;
 }
 
 button {
@@ -60,4 +61,12 @@ button:hover {
     height: 3.5rem;
     font-size: 1.1rem;
     color: white;
+}
+
+
+@media (min-width: 768px) {
+    h1 {
+        color: white;
+        font-size: 3rem;
+    }
 }
